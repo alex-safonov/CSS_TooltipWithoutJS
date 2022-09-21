@@ -1,0 +1,26 @@
+<style type="text/css">
+
+.btn.volTaskDone:hover~.volTaskDoneTooltip{
+    display: block;
+}
+.volTaskDoneTooltip {
+	  display: none;
+    position: absolute;
+    background: #fff;
+    top: -85px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 4px 24px 0px #004d5f3d;
+    box-shadow: 0 4px 24px 0px #004d5f3d;
+}
+
+</style>
+
+
+<button class="btn volTaskDone foundHelp" data-toggle="modal" style="float: right; max-width: none;" data-target=".intervene-modal-2">отметить выполненным</button>
+
+<div class="volTaskDoneTooltip">
+  <p class="volTaskDoneTooltipText">
+    Нажимайте кнопку, если задание выполнено полностью и не предполагает внесения правок. Мы оповестим фонд о выполнении задачи. Если ответа не будет в течение 7 дней задание закроется как выполненное автоматически.
+  </p>
+  <div class="volTaskDoneTooltipTail"></div>
+</div>
